@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Myoungin_Wham!</title>
+ <style> 
+      img.Wham1 {width: 100%}
+      img.Wham2 {width: 100%; height: 830px; display: block; margin-bottom:15px; auto;}
+      #Container {width:1920px; 
+            height:1400px; 
+            display: block;
+            margin: 3% auto;
+            border: 1px solid gray;
+            }
+      #Left {width:50%;
+            height:100%; 
+            float: left;
+            background-color:pink;
+            }
+
+      #Right {width:900px;
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+            height: 1120px; 
+            margin-left: 30px;
+            margin-right: 30px;
+            float: right;
+            background-color:red;
+            }
+      #R_Right {width:450px;
+            height:100%;
+            float: left;
+            }
+      #intro {width:435px;
+            height:245px;
+            margin-right: 15px;
+            margin-bottom:15px;
+            float: left;
+           color:green;
+           background-color:lightseagreen;
+            }
+      #R_R1 {width:210px;
+            height:830px;
+            margin-right: 15px;
+            float: left;
+            background-color:lightskyblue;
+            }
+      #R_R2 {width:210px;
+            height:830px;
+            margin-right: 15px;
+            float: left;
+            background-color:lightblue;
+            }
+      #R_Left {width:450px;
+            height:1120px;
+            float: left;
+            }
+      #R_L1 {width:218px;
+            height:250px;
+            margin-right: 7px;
+            float: left;
+            background-color:lightsalmon;
+            }
+      #R_L2 {width:217px;
+            height:250px;
+            margin-left: 7px;
+            float: left;
+            background-color:lightpink;
+            }
+      #footer {width:900px;
+            height:280px;
+            margin-left: 30px;
+            margin-left: 30px;
+            float: left;
+            background-color:lightcyan;
+            text-align: center;}
+    </style>
+  </head>
+
+  <body>
+      <div id="Container">
+           <div id="Left">
+                  <h1>WHAM!</h1>
+                  <img class="Wham1" src=https://imgur.com/0QqZE9C.jpg Alt="Wham! 1">
+                  <br> Debbi Voller gets the last ever Wham! interview
+
+            </div>
+
+            <div id="Right">
+                  <div id="R_Right">
+                        <div id="intro">
+                        초록글씨 내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용
+                        </div>
+                        <div id="R_R1">
+                              George <br>
+                              내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용
+                        </div>
+                        <div id="R_R2">
+                             내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용
+                        </div>
+                  </div>
+                  <div id="R_Left">
+                     <img class="Wham2" src=https://imgur.com/zdoxI4z.jpg alt="Wham! 2">
+                        <div id="R_L1">
+                              내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내
+                        </div>
+                        <div id="R_L2">
+                              내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용
+                        </div>
+                  </div>
+             </div>
+                  <div id="footer">
+                        말말말
+                  </div>
+            </div>
+      </div>
+
+  </body>
+</html>
