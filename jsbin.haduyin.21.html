@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2024 by Alishajang0702 (http://jsbin.com/haduyin/21/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/helvetica-neue-5" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<title>Myoungin_Wham!</title>
+ <style>   
+   
+   
+      img.Wham2 {width:320px; height:590px; display: block; margin-bottom:10px; auto;}
+      img.Wham3 {width:100%; height: 180px;}
+      #Container {width:1366px; 
+            height:996px; 
+            display: block;
+            margin: 3% auto;;
+            }
+      #Left {width:50%;
+            height:100%; 
+            float: left;}
+   .title {width:100%;
+           height:200px;
+           margin-top:-50px;
+           position: relative;}
+
+
+      #Right {width:640px;
+            height: 796px; 
+            margin-left: 21.5px;
+            margin-right: 21.5px;
+            float: right;
+            }
+      #R_Right {width:320px;
+            height:796px;
+            float: left;
+
+            }
+      #intro {width:310px;
+            height:175px;
+            margin-right: 10px;
+            margin-bottom:10px;
+            float: left;
+           color:green;
+
+            }
+      #R_R1 {width:150px;
+            height:590px;
+            margin-right: 10px;
+            float: left;
+            }
+      #R_R2 {width:150px;
+            height:590px;
+            margin-right: 10px;
+            float: left;
+            }
+      #R_Left {width:320px;
+            height:796px;
+            float: left;}
+      #R_L1 {width:155px;
+            height:178px;
+            margin-right: 5px;
+            float: left;}
+      #R_L2 {width:155px;
+            height:178px;
+            margin-left: 5px;
+            float: left;}
+      #footer {width:640px;
+            height:200px;
+            margin-left: 21.5px;
+            margin-left: 21.5px;
+            float: left;
+            text-align: center;}
+   #audioPlayer {display: block;}
+    </style>
+  <style id="jsbin-css">
+
+body {background-color: #E7E4DB; opacity: 0; transition: opacity 2s ease-in-out;}
+
+
+#navi{width:100%; height:70px; text-align: center; margin: 50px;}
+#NT{color: black; font-size: 40px; font-family: helvetica; text-align: center;}
+
+a {color: black; text-decoration: none;}
+
+#Nwrap {display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      margin: 20px;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 20px}
+
+
+
+
+#container {text-align: center;}
+.title {font-size: 175px;
+  color: #4D67A1;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;}
+
+#BG {position: relative;
+     float: right;
+     width: 683px;
+     height: 796px;
+     background-image: url('https://i.imgur.com/0QqZE9C.jpg');
+     background-size: cover;
+     background-position: center;  
+}
+.interview {font-size: 20px;
+  color: #E44F49;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  position: absolute;
+  left: 40px;
+  top: 10px;}
+
+#intro {font-size: 17px;
+        font-family: 'Helvetica Neue', sans-serif;
+        color:#539C88;}
+
+.B_T {font-size: 25px;
+      color:#4D67A1;
+      font-family: "Archivo Black", sans-serif;
+      font-weight: 400;
+      font-style: normal;}
+
+#Right {font-size: 17px;
+        font-family: 'Helvetica Neue', sans-serif;  
+        text-align: ;}
+
+
+#middle {position: relative;
+     float: right;
+     width: 100%;
+     height: 200px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     background-image: url('https://imgur.com/eErpOXt.jpg');
+     background-size: cover;
+     background-position: center;}
+
+.MB {color: #4D67A1;
+     font-size: 15px; 
+     position: absolute;
+     top: 28px;
+     background-color: #E7E4DB;
+     font-family: "Playfair Display", serif;
+     font-optical-sizing: auto;
+     font-weight: <weight>;
+     font-style: normal;}
+
+#footer {font-size: 147px;
+  color: #4D67A1;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;}
+</style>
+</head>
+  <body>
+<div id="navi">
+<div id="NT"><a href="https://mainpage.com"><b>The Perfect Musicians In The World!</b></a></div>
+<div id="Nwrap">
+  <div id="NWham">
+    <a href="https://output.jsbin.com/haduyin" onmouseover="changeText(this, 'MYOUNGIN');"  onmouseout="changeText(this, 'Wham!');">Wham!</a>
+  </div>
+  <div id="NNIRVANA">
+    <a href="https://www.example.com" onmouseover="changeText(this, 'HYOJU');"  onmouseout="changeText(this, 'NIRVANA');">NIRVANA</a>
+  </div>
+  <div id="NBeatles">
+    <a href="https://www.example.com" onmouseover="changeText(this, 'MUBIN');"  onmouseout="changeText(this, 'The Beatles');">The Beatles</a>
+  </div>
+  <div id="NMT">
+    <a href="https://www.example.com" onmouseover="changeText(this, 'CHAERIN');"  onmouseout="changeText(this, 'Modern Talking');">Modern Talking</a>
+  </div>
+</div>
+</div>
+
+      <div id="Container">
+           <div id="Left">
+                  <div class="title">WHAM!</div>
+                  <div id="BG">
+                     <div class="interview">Debbi Voller gets the last ever Wham! interview</div>   
+                  </div>
+             </div>
+            <div id="Right">
+                  <div id="R_Right">
+                        <div id="intro">
+                        <b>Wham! (briefly known in the US as Wham! UK) were an English pop duo formed in Bushey in 1981 consisting of George Michael and Andrew Ridgeley. They were one of the most successful pop acts during the 1980s, selling more than 30 million certified records worldwide from 1982 to 1986.</b>
+                        </div>
+                    
+                        <div id="R_R1">
+                          <div class="B_T">Who is Wham!?</div>
+                             Influenced by funk and soul music and presenting themselves as disaffected youth, Wham!'s 1983 debut album Fantastic addressed the United Kingdom's unemployment problem and teen angst over adulthood. Their second studio album Make It Big in 1984 was a worldwide pop smash hit, charting at number one in both the UK and the United States. Associated with the MTV-driven Second British Invasion of the US, the singles from the album—
+                        </div>
+                    
+                        <div id="R_R2">
+"Wake Me Up Before You Go-Go", "Everything She Wants" and "Careless Whisper"—all topped the US Billboard Hot 100. In 1985, Wham! made a highly publicised ten-day visit to China, the first by a Western pop group.<div id="middle">
+                             <div class="MB"> <b>George:</b> "How can you end Wham! any more perfectly than in front of 72,000 people, still good friends with hopefully a Number One record."</div>
+                            </div>
+                           <br>The event was seen as a major watershed moment in increasing friendly bilateral relations between China and the West.
+
+                        </div>
+                  </div>
+                  <div id="R_Left">
+                     <img class="Wham2" src=https://imgur.com/zdoxI4z.jpg alt="Wham! 2">
+                        <div id="R_L1">
+                              In 1986, Wham! disbanded. Michael was keen to create music targeted at a more sophisticated adult market rather than the duo's primarily teenage audience. 
+                        </div>
+                        <div id="R_L2">
+                              Before going their separate ways, a farewell single "The Edge of Heaven", and a greatest-hits album titled The Final would be forthcoming, along with a farewell concert entitled the Final.
+                        </div>
+                  </div>
+             </div>
+                  <div id="footer">
+                        THE FINAL DAY
+                  </div>
+      </div>
+ <iframe width="0" height="0" style="display:none; visibility:hidden;" scrolling="no" frameborder="no" allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/tori-lorraine/wake-me-up-before-you-go-go&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+    </iframe>
+  <script id="jsbin-javascript">
+function changeText(element, newText)
+      {element.innerText = newText;}
+
+window.addEventListener('load', () => {
+   document.body.style.opacity = '1'; 
+    });
+    
+</script>
+</body>
+</html>
